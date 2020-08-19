@@ -1,0 +1,215 @@
+*{
+    margin: 10px;
+    padding: 0;
+    box-sizing: border-box;
+}
+#position{
+    margin-left:auto;
+    margin-right:auto;
+    position: relative;
+    text-align: center;
+    border: 2px solid black;
+    background-color: #21618C ;
+    height: 740px;
+    width: 900px;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+.pos1{
+    position: relative;
+    font-size: 20px;
+    text-align: left;
+    background-color: #AED6F1;
+    border: 2px solid black;
+    border-radius: 2px;
+    width: auto;
+    height: 230px;
+    margin: 10px;
+  }
+.pos2{
+    position: relative;
+    font-size: 20px;
+    text-align: left;
+    background-color: #F2F3F4;
+    border: 2px solid black;
+    border-radius: 2px;
+    width: 250px;
+    height: 370px;
+    padding: 5px;
+    left: 0;
+    margin: 10px;
+}
+.pos3{
+    position: absolute;
+    background-color: #D6EAF8;
+    border: 2px solid black;
+    border-radius: 2px;
+    width: 300px;
+    height: 355px;
+    margin: 10px;
+    padding: 5px;
+    top: 305px;
+    left: 260px;
+}
+.pos4{
+    position: relative;
+    font-size: 15px;
+    text-align: left;
+    background-color: #D1F2EB;
+    border: 2px solid black;
+    border-radius: 2px;
+    width: 300px;
+    height: 380px;
+    padding: 5px;
+    margin: 10px;
+    left: 570px;
+    bottom: 360px;
+}
+#float{
+    font-size: 20px;
+    color: black;
+    background-color:brown ;
+    border: 2px solid black;
+    height: 800px;
+    width: 900px;
+}
+.float1{
+    float: left;
+    background-color:#FFFFFF ;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align-last: center;
+    height: 40px;
+    width: 865px;
+    margin: 15px;
+}
+.float2{
+    float: left;
+    background-color:#FFFFFF ;
+    border: 1px solid black;
+    height: 600px;
+    width: 200px;
+    margin: 15px;
+    padding: 3px;
+}
+.float3{
+    float: left;
+    background-color: #FFFFFF ;
+    border: 1px solid black;
+    height: 50px;
+    width: 600px;
+    margin: 15px;
+}
+.float4{
+   float: left;
+    background-color:#FFFFFF ;
+    border: 1px solid black;
+    height: 560px;
+    width: 610px;
+    margin: 10px;
+    padding: 4px;
+}
+.center{
+    text-align: center;
+    font-weight: bold;
+}
+.promedio{
+        display:block;
+        margin:auto;
+}
+#flebox {
+    background-color:#FDEBD0 ;
+    border: 2px solid black;
+    height: auto;
+    margin: 10px;
+    display: flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:space-around;
+
+  }
+  .flebox1 {
+    flex: 1 1 100px ;
+    background:#E8DAEF;
+    border: 2px solid black;
+    border-radius: 5px;
+    height: auto;
+    width: 360px;
+    
+  }
+  .ddiv{
+      flex: 1;
+  }
+  .flebox2 {
+    background: #F4ECF7;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 500px;
+    height:auto;
+    margin: 10px;
+    flex-wrap:wrap;
+  }
+  .flebox3 {
+    flex-shrink: 100;
+    background: #FAD7A0;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+
+    
+  }
+  .flebox4 {
+    background:#FFFFFF;
+    color: brown;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 80%;
+    align-self:stretch;
+    height:auto ;
+    margin: 10px;
+  }
+  #grid{
+    display: grid;
+    border: 2px solid black;
+    grid-template-areas: 
+    'grid1 grid1 grid1'
+    'grid2 grid3 grid3'
+    'grid2 grid4 grid4';
+    padding: 10px;
+    background-color: #5D6D7E;
+   
+  }
+  .grid1{
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: #AEB6BF;
+    grid-area: grid1;
+   
+  }
+  .grid2{
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: #FADBD8 ;
+    grid-area: grid2;
+    
+  }
+  .grid3{
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: #F4ECF7 ;
+    grid-area: grid3;
+    
+  }
+  .grid4{
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: #E9F7EF ;
+    grid-area: grid4;
+   
+  }
